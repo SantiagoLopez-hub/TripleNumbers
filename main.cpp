@@ -41,5 +41,23 @@ void FinishMessage() {
 }
 
 int main() {
+    srand(time(NULL)); //This will create a new random sequence based on time of day
+    int LevelDifficulty = 1;
+    const int MaxLevel = 10;
+
+    do //Loops game until all levels are completed
+    {
+        bool bLevelComplete = PlayGame(LevelDifficulty);
+        cin.clear(); //Clears any errors
+        cin.ignore(); //Discards the buffer
+
+        if (bLevelComplete)
+        {
+            //increase the level difficulty
+            ++LevelDifficulty;
+        }
+
+    } while (LevelDifficulty <= MaxLevel);
+    FinishMessage();
     return 0;
 }
