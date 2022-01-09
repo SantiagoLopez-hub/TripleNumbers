@@ -1,6 +1,14 @@
 #include <iostream>
+#include <ctime>
+
+using namespace std;
+
+void PrintIntroduction(int Difficulty) {}
+
+bool PlayGame(int Difficulty) {}
+
+void FinishMessage() {}
 
 int main() {
-    std::cout << "Hello, World!" << std::endl;
     return 0;
 }
