@@ -1,0 +1,3 @@
+C:/Users/silp4/Documents/GitHub/Triple-numbers/cmake-build-debug/CMakeFiles/a.dir
+C:/Users/silp4/Documents/GitHub/Triple-numbers/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/silp4/Documents/GitHub/Triple-numbers/cmake-build-debug/CMakeFiles/rebuild_cache.dir
