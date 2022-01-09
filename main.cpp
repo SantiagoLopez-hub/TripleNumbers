@@ -36,7 +36,9 @@ bool PlayGame(int Difficulty) {
     }
 }
 
-void FinishMessage() {}
+void FinishMessage() {
+    cout << "Congratulations on finishing the game!\n\n";
+}
 
 int main() {
     return 0;
